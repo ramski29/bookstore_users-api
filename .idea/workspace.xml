@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc070743-6cbf-4ca3-86f3-9b567419b174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bookstore_users-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/url_mappings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/ping/ping_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/users/users_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/user/users.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/users_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/errors/rest_error.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/users/users_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users/users_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/user/users.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/user/users.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/users_service.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,27 +89,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit &amp; Create MVC Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit &amp; Create MVC Pattern" />
+    <MESSAGE value="Adding domain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding domain" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="187" key="GridCell.Tab.0.bottom" timestamp="1598109427588">
+    <state width="1324" height="187" key="GridCell.Tab.0.bottom" timestamp="1598109911033">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1598109427588" />
-    <state width="1324" height="187" key="GridCell.Tab.0.center" timestamp="1598109427586">
+    <state width="1324" height="187" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1598109911033" />
+    <state width="1324" height="187" key="GridCell.Tab.0.center" timestamp="1598109911032">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1598109427586" />
-    <state width="1324" height="187" key="GridCell.Tab.0.left" timestamp="1598109427585">
+    <state width="1324" height="187" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1598109911032" />
+    <state width="1324" height="187" key="GridCell.Tab.0.left" timestamp="1598109911032">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1598109427585" />
-    <state width="1324" height="187" key="GridCell.Tab.0.right" timestamp="1598109427587">
+    <state width="1324" height="187" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1598109911032" />
+    <state width="1324" height="187" key="GridCell.Tab.0.right" timestamp="1598109911033">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
-    <state width="1324" height="187" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1598109427587" />
+    <state width="1324" height="187" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1598109911033" />
   </component>
 </project>
